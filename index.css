@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 50px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+
+.title{
+    padding: 5px;
+    font-size: 25px;
+    border: 3px solid orange;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+label{
+    font-size: 1.3em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+/* Espaços do select quest 1 e 2*/
+
+.divSelect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choose{
+    height: 45px;
+    border: none;
+    overflow: hidden;
+}
+.choose:focus {
+    outline: none;
+}
+
+.choose .opt1{
+    padding: 7px 10px;
+    text-align: center;
+    
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.choose .opt2{
+    padding: 7px 10px;
+    text-align: center;
+    
+    font-size: 1.2em;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.opt1:checked,
+.opt1:hover {
+    box-shadow: 0 0 10px 100px #4ddc3b inset;
+}
+
+.opt2:checked,
+.opt2:hover {
+  box-shadow: 0 0 10px 100px #ec4a4a inset;
+}
+
+
+/* Espaco do select quest 3 */
+
+#answer3{
+    height: 45px;
+    border: none;
+    overflow: hidden;
+  }
+  #answer3::-moz-focus-inner {
+    border: 0;
+  }
+  #answer3:focus {
+    outline: none;
+  }
+  #answer3 option{
+    width: 60px;
+    font-size: 1.2em;
+    padding: 10px 0;
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  
+/* cores dos botões de notas */
+
+.op1{
+    background-color: rgb(196, 2, 2);
+}
+
+.op2{
+    background-color: #d22129;
+}
+
+.op3{
+    background-color: #f25125;
+}
+
+.op4{
+    background-color: #f37022;
+}
+
+.op5{
+    background-color: #f9a823;
+}
+
+.op6{
+    background-color: #ffc829;
+}
+
+.op7{
+    background-color: #ecdb12;
+}
+
+.op8{
+    background-color: #e9e641;
+}
+
+.op9{
+    background-color: #c5d92c;
+}
+
+.op10{
+    background-color: #afd037;
+}
+
+#answer3 option:checked,
+option:hover {
+  box-shadow: 0 0 10px 100px #000000 inset;
+  color: white;
+}
+
+/* espaço para ultima pergunta */
+
+.divText{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#answer4{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#submit{
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-block: -20px;
+}
