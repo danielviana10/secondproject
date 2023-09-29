@@ -28,6 +28,8 @@
 
             <p>
                 <?php
+
+                    echo "Obrigado por responder nossa pesquisa de satisfação!";
                     validate($connection,$sql3)
                 ?>
                 
