@@ -2,8 +2,9 @@
 
     include_once('connection.php');
 
-    require_once('queries.php');
+    require_once('principal.php');
 
+    
 ?>
 
 <!DOCTYPE html>
@@ -13,25 +14,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/pesquisa.css">
     
     <script src="https://use.fontawesome.com/fe459689b4.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
 </head>
 <body>
     <div class="box">
-        <form action='pesquisa.php?uuid='   method="POST">
+        <form method="POST">
             <fieldset>
                 <legend class="title"><b>NPS</b></legend>
                 <br>
-                <h3>Pesquisa de satisfação: </h3>
- 
-
-                <div class="container">   
+                <h3>
+                    Pesquisa de Satisfação: 
                     <?php
-                        getQuests($connection);
+                        getName($connection,$sql)
                     ?>
-                </div>
+                </h3>
+
+                    <?php
+                        query($connection,$sql);
+
+                    ?>
+
                 <br><br>
             </fieldset>
         </form>

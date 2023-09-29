@@ -50,16 +50,16 @@ p{
     justify-content: space-between;
 }
 
-.choose{
+.select{
     height: 45px;
     border: none;
     overflow: hidden;
 }
-.choose:focus {
+.select:focus {
     outline: none;
 }
 
-.choose .opt1{
+.select .opt1{
     padding: 7px 10px;
     text-align: center;
     
@@ -73,7 +73,7 @@ p{
     border: 1px solid green;
 }
 
-.choose .opt2{
+.select .opt2{
     padding: 7px 10px;
     text-align: center;
     
@@ -99,18 +99,18 @@ p{
 
 /* Espaco do select quest 3 */
 
-#answer3{
+#id_3{
     height: 45px;
     border: none;
     overflow: hidden;
   }
-  #answer3::-moz-focus-inner {
+  #id_3::-moz-focus-inner {
     border: 0;
   }
-  #answer3:focus {
+  #id_3:focus {
     outline: none;
   }
-  #answer3 option{
+  #id_3 option{
     width: 60px;
     font-size: 1.2em;
     padding: 10px 0;
@@ -178,7 +178,7 @@ option:hover {
     margin-bottom: 20px;
 }
 
-#answer4{
+.text{
     margin-top: 10px;
     border: none;
     border-bottom: 1px solid black;
@@ -188,7 +188,7 @@ option:hover {
 }
 
 #submit{
-    align-items: center;
+    margin-left: 50%;
 }
 
 .container{

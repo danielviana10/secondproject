@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Lato&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 50px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.fieldRedirect{
+    border: 3px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+/* espaço para ultima pergunta */
